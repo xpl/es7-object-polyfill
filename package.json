@@ -1,0 +1,33 @@
+{
+  "name": "es7-object-polyfill",
+  "version": "0.0.0",
+  "description": "A polyfill for missing Object.values / Object.entries",
+  "main": "es7-object-polyfill.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xpl/es7-object-polyfill.git"
+  },
+  "keywords": [
+    "es7",
+    "object",
+    "values",
+    "entries",
+    "polyfill"
+  ],
+  "author": "Vitaly Gordon <rocket.mind@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpl/es7-object-polyfill/issues"
+  },
+  "homepage": "https://github.com/xpl/es7-object-polyfill",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "reflect.ownkeys": "^0.2.0"
+  }
+}
