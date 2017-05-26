@@ -1,6 +1,6 @@
 {
   "name": "es7-object-polyfill",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A polyfill for missing Object.values / Object.entries",
   "main": "es7-object-polyfill.js",
   "scripts": {
