@@ -19,5 +19,5 @@ It will automatically create `Object.values` and `Object.entries` — but only i
 Served from Unpkg CDN:
 
 ```html
-<script src="http://unpkg.com/es7-object-polyfill"></script>
+<script src="https://unpkg.com/es7-object-polyfill"></script>
 ```
