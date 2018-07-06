@@ -13,3 +13,11 @@ require ('es7-object-polyfill')
 ```
 
 It will automatically create `Object.values` and `Object.entries` — but only if they're not already defined.
+
+## In a browser, without module bundlers
+
+Served from Unpkg CDN:
+
+```html
+<script src="http://unpkg.com/es7-object-polyfill"></script>
+```
