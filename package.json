@@ -5,7 +5,8 @@
   "main": "es7-object-polyfill.js",
   "unpkg": "build/es7-object-polyfill.browser.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "build": "browserify --debug ./es7-object-polyfill.js > ./build/es7-object-polyfill.browser.js"
   },
   "repository": {
     "type": "git",
@@ -25,11 +26,12 @@
   },
   "homepage": "https://github.com/xpl/es7-object-polyfill",
   "devDependencies": {
-    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2015": "^6.24.1",
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^6.1.3"
   },
   "dependencies": {
+    "browserify": "^16.2.3",
     "reflect.ownkeys": "^0.2.0"
   }
 }
