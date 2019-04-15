@@ -8,11 +8,11 @@ module.exports = (function () {
 
 	if (!Object.values) {
 		 Object.values = function values(O) {
-			return reduce(ownKeys(O), (v, k) => concat(v, typeof k === 'string' && isEnumerable(O, k) ? [O[k]] : []), []) } }
+			return reduce(ownKeys(O), function (v, k) { return concat(v, typeof k === 'string' && isEnumerable(O, k) ? [O[k]] : []) }, []) } }
 
 	if (!Object.entries) {
 		 Object.entries = function entries(O) {
-			return reduce(ownKeys(O), (e, k) => concat(e, typeof k === 'string' && isEnumerable(O, k) ? [[k, O[k]]] : []), []) } }
+			return reduce(ownKeys(O), function (e, k) { return concat(e, typeof k === 'string' && isEnumerable(O, k) ? [[k, O[k]]] : []) }, []) } }
 
 	return Object
 
